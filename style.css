@@ -1,0 +1,214 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #0E152C;
+    ;
+}
+
+.header{
+    background-color: var(--primary-color);
+    color: white;
+    height: 100px;
+    padding: 0px 115px 0px 115px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header .input{
+   font-size: 15px;
+    border: none;
+   padding: 0px 10px 0px 10px;
+  
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;}
+
+.header .medle{
+    display: flex;
+    align-items: center;
+}
+.header .medle .line{
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+}
+.landing{
+    background-color: var(--primary-color);
+    background-image: url("./images/abstract-wave-element-for-design-digital-frequency-track-equalizer-stylized-line-art-background-colorful-shiny-wave-with-lines-created-using-blend-tool-curved-wavy-line-smooth-stripe-white-vector-remo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* height: 600px;
+    padding: 0px 115px 0px 115px;
+    position: relative; */
+    color: white;
+    height: 600px;
+    padding: 0px 115px 0px 115px;
+    position: relative;
+}
+.landing .landing-text{
+   transform: translateY(100px);
+   font-size: 50px;
+   font-size: 40px;
+   width: 700px;
+   font-weight: 700;
+   line-height: 100px;
+}
+.landing .landing-content{
+    font-size: 30px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-40%, -60%);
+    line-height: 50px;
+    font-weight: 400;
+    width: 650px;
+}
+.level{
+    background-color: var(--primary-color);
+    color: white;
+    height: 600px;
+    padding: 0px 115px 0px 115px;
+    position: relative;
+}
+.level .level-text{
+   
+   font-size: 40px;
+   
+   width: 700px;
+   font-weight: 700;
+   line-height: 100px;
+}
+.level .level-content{
+    transform: translateY(50px);
+    font-size: 30px;
+    position: absolute;
+    line-height: 50px;
+    font-weight: 400;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+    width: 1100px;
+}
+
+
+
+.shape{
+    width: 850px;
+    height: 80px;
+   
+    background-color: var(--primary-color);
+  border-color:#845F38BF ;
+  border-style: solid;
+  border-width: 34px;
+    border-top: #845F38BF;
+  border-left: #845F38BF;
+
+}
+ .shapeC{
+
+    border-color:#845F38BF ;
+  border-style: solid;
+  border-width: 34px;
+    border-top: #845F38BF;
+  border-left: #845F38BF;
+ 
+ 
+}
+.shapeD{
+    border-color:#845F38BF ;
+    border-style: solid;
+    border-width: 34px;
+      border-bottom: #845F38BF;
+    border-right: #845F38BF;
+}  
+.arrows{
+    position: absolute;
+    bottom: 30px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+/* slider */
+
+.slider{
+    position: relative;
+}
+.iconss{
+    position: absolute;
+    top: 51%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 111px 0px 111px;
+}
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    height: 600px;
+    padding: 40px 115px 40px 115px;
+
+}
+.footer .footer-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: white 1px solid;
+    padding-bottom: 18px;
+    padding-left: 10px;
+}
+
+.footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+}
+.footer .footer-content h1{
+    margin-bottom: 14px;
+}
+.footer .footer-content .social-icons{
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 30px;
+}
+
+.footer .footer-words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-top: 50px;
+}
+
+.footer .footer-text-p{
+   display: flex;
+   justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.footer .footer-text-p p{
+    width: 1000px;
+}
